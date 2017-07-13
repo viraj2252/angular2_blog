@@ -18,6 +18,7 @@ export class ShopComponent implements OnInit {
     }
 
     getProducts(){
+        debugger;
         let dbRef = firebase.database().ref('products/')
         dbRef.once('value')
             .then((snapshot)=> {

@@ -32,6 +32,7 @@ export class ProductAddComponent {
     }
 
     createProduct(){
+        debugger;
         this.product = new Product ( 
             this.name, 
             this.description, 
